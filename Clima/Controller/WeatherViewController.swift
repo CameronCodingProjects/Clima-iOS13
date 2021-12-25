@@ -16,6 +16,10 @@ class WeatherViewController: UIViewController {
     
     @IBOutlet weak var searchTextField: UITextField!
     
+    // UI button search bar when pressed
+    @IBAction func searchPressed(_ sender: UIButton) {
+        print(searchTextField.text!)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
